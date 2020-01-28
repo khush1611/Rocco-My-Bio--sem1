@@ -1,0 +1,90 @@
+/*
+colors:
+hot-pink:#ed1e79;
+*/
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2; /*Default value*/
+ }
+
+ /*****************
+ Common classes 
+ ******************/
+.text-center{
+    text-align: center;
+}
+
+h2{
+    text-transform: uppercase;
+    color:#ed1e79;
+}
+/*.header,*/ .main, .rightbar, .hobbies, .footer{
+    /*border: 1px dashed black;
+    max-width: 80em;
+    margin: 0 auto; */
+    box-sizing: border-box;
+    padding: 1em;
+}
+ /*****************
+ Header 
+ ******************/
+.header{
+    max-height: 25em;
+}
+
+.website_logo{
+    text-align: center;
+}
+.website_logo img{
+    max-width: 15em;
+}
+.navigation_list{
+    display: flex;
+    margin: 0 auto;
+    background-color: #000;
+    /* make it center */
+}
+.navigation_list li{
+     list-style-type: none;
+     margin: 0.5em;
+}
+.navigation_list a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#f17bae;
+    font-weight: bold;
+}
+.navigation_list a:hover{
+    color:#ed1e79; 
+}
+/*****************
+Main 
+******************/
+.main_banner img{
+    max-width: 100%;
+    max-height: 30em;
+}
+
+.about{
+     padding: 1em;
+     text-align: justify;
+}
+.author_image img{
+    max-width: 10em;
+}
+
+/*****************
+ Hobbies 
+******************/
+
+/*****************
+ Footer 
+******************/
+.footer{
+    background-image: linear-gradient(90deg, rgba(237,30,121,0.4937325271905637) 0%, rgba(255,255,255,0.33406866164434523) 100%);
+}
+.footer p{
+    line-height: 1;
+}
